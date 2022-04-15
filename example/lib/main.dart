@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'dart:async';
-
-import 'package:flutter/services.dart';
-import 'package:credit_card_scanner/credit_card_scanner.dart' as card;
+import 'package:easy_card_scanner/credit_card_scanner.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +13,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  String _platformVersion = 'Unknown';
+
 
   @override
   void initState() {
@@ -29,8 +26,10 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        floatingActionButton: FloatingActionButton(onPressed: () async {
-          await card.CardScanner.scanCard();
+        floatingActionButton: FloatingActionButton(
+            child: const Icon(Icons.camera_alt),
+            onPressed: () async {
+          await CardScanner.scanCard();
 
         }),
         appBar: AppBar(

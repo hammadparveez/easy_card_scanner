@@ -1,12 +1,12 @@
 import 'dart:async';
 
-import 'package:credit_card_scanner/models/card_details.dart';
-import 'package:credit_card_scanner/models/card_scan_options.dart';
+import 'package:easy_card_scanner/models/card_details.dart';
+import 'package:easy_card_scanner/models/card_scan_options.dart';
 import 'package:flutter/services.dart';
 
-export 'package:credit_card_scanner/models/card_details.dart';
-export 'package:credit_card_scanner/models/card_issuer.dart';
-export 'package:credit_card_scanner/models/card_scan_options.dart';
+export 'package:easy_card_scanner/models/card_details.dart';
+export 'package:easy_card_scanner/models/card_issuer.dart';
+export 'package:easy_card_scanner/models/card_scan_options.dart';
 
 class CardScanner {
   static const MethodChannel _channel =

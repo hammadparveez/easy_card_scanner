@@ -29,7 +29,7 @@ dependencies:
 ## How to use it
 
 ```dart
-import 'package:credit_card_scanner/credit_card_scanner.dart';
+import 'package:easy_card_scanner/credit_card_scanner.dart';
 var cardDetails =  CardScanner.scanCard();
 log(cardDetails);
 ```

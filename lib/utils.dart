@@ -1,6 +1,6 @@
 // @author nateshmbhat created on 03,July,2020
 
-import 'package:credit_card_scanner/credit_card_scanner.dart';
+import 'package:easy_card_scanner/credit_card_scanner.dart';
 
 class CardUtils {
   final mastercard =
