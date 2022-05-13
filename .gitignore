@@ -1,0 +1,10 @@
+.DS_Store
+.dart_tool/
+
+pubspec.lock
+.packages
+.idea/*
+.pub/
+example/android/app/release/
+
+build/
