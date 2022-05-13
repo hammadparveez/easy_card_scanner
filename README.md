@@ -10,7 +10,8 @@
 - uses native screen to scan card
 
 ## Fixes
-- app crash on pressing BackButton
+- app crash on pressing BackButton for Android
+- app crash for iOS
 
 ### Example :
 <a href="https://github.com/hammadpervez/easy_card_scanner/tree/main/example"> Check out an example </a>
